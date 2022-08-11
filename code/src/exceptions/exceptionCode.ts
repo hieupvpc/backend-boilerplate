@@ -1,0 +1,7 @@
+enum ERROR {
+  UNKNOWN = 1,
+  VALIDATE_FAILED = 2,
+  CACHE_SERVER_NOT_FOUND = 3,
+}
+
+export default ERROR

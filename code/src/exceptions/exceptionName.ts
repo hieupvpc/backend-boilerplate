@@ -1,0 +1,6 @@
+enum ERROR {
+  UNKNOWN = 'UNKNOWN',
+  CACHE_SERVER_NOT_FOUND = 'CACHE_SERVER_NOT_FOUND',
+}
+
+export default ERROR
