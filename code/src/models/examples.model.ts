@@ -25,7 +25,7 @@ export class examples
     examples.init(
       {
         id: {
-          type: DataTypes.UUIDV4,
+          type: DataTypes.UUID,
           allowNull: false,
           defaultValue: DataTypes.UUIDV4,
           primaryKey: true,

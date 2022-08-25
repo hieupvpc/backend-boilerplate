@@ -72,7 +72,7 @@ export const setup = async (iCradle: ICradle) => {
   initEnv()
   initI18n()
   initTimeZone(iCradle)
-  initSequelizeModel(iCradle)
+  initSequelizeModel(iCradle).sequelize.sync()
 
   console.log(`🚀🚀🚀 PostgreSQL connected successfully 🚀🚀🚀`)
 }
